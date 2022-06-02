@@ -14,4 +14,11 @@ fun main() {
     println("Seu nome é ${pessoa.nome} sua idade: ${pessoa.idade}")
     println(pessoa.cpf)
 
+    var conta = Conta("255", "00102030")
+
+    conta.consulta("255","01020305060")
+
+
+
+
 }
